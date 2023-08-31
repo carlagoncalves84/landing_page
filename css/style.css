@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Righteous-Regular';
+    src: url('../fonts/Righteous-Regular.ttf');
+}
+@font-face {
+    font-family: 'Sarala-Regular';
+    src: url('../fonts/Sarala-Regular.ttf');
+}
+@font-face {
+    font-family: 'Sarala-Bold';
+    src: url('../fonts/Sarala-Bold.ttf');
+}
+:root{
+    --c1:  ;  
+}
