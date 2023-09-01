@@ -1,23 +1,122 @@
-/* todas as outras medias */
-
-
-/* typical device breakpoints 
-pequenas telas- ate 600px
-telemoveis- de 600px atÃ© 768px
-tablet- 768px ate 992px
-desktop- 992px ate 1200px
-grandes telas- acima de 1200px
-*/
-
 
 @media screen and (min-width: 768px) {      
-
+    span#burger{
+        display: none;
+    }
+    #itens{
+        display: block;
+        
+        cursor: pointer;
+    }
+    menu>ul>li{
+        display: inline-block;
+        
+    }
+    
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px){/*tablet */
+    *{
+        text-decoration: none;
+    }
+    .cabecalho{
+        margin: 20px;
+    }
+    .cabecalho-menu-item{
+        font-family: 'Sarala-Regular';
+        font-size: 1em;
+        font-weight: 400px;
+        color: var(--c1);
+        text-transform: capitalize;
+    }
+    .cabecalho-imagem{
+        height: 72px;
+    }
+    menu>ul>li{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    #itens{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .conteudo-principal-escrito-titulo{
+        font-size: 5em;
+    }
+    .conteudo-principal-escrito-subtitulo{
+        font-size: 1.8em;
+    }
+    .conteudo-principal-escrito-botao{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
     
+
 }
-@media screen and (min-width: 992px) and (max-width: 1200px){/*desktop */
+@media screen and (min-width: 992px) {/*desktop */
+    *{
+        text-decoration: none;
+    }
+    .cabecalho{
+        margin: 20px;
+    }
+    .cabecalho-imagem{
+        height: 72px;
+    }
+    .cabecalho-menu-item{
+        font-family: 'Sarala-Regular';
+        font-size: 1.3em;
+        font-weight: 400px;
+        color: var(--c1);
+        text-transform: capitalize;
+    }
+    .cabecalho-menu-item:hover{
+        background-color: rgba(222, 64, 199, 0.53);
+    }
+    .cabecalho-imagem{
+        height: 72px;
+        margin-left: 100px;
+    }
+    menu>ul>li{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    #itens{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .conteudo{
+        border-top: 0.4px solid var(--c1);
+        margin-bottom: 48px;
+        text-align: left;
+    }
+    .conteudo-principal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .conteudo-principal-escrito{
+        display: flex;
+        gap: 32px;
+    }
+    .conteudo-principal-imagem{
+        height: 400px;
+        padding-bottom:30px ;
     
-}
-@media screen and (min-width: 1200px){ /*grandes telas */
+    }
+    .rodape{
+        padding: 30px;
+    }
+    
+
+
+
+
+    
 }
