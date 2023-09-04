@@ -29,8 +29,12 @@
         color: var(--c1);
         text-transform: capitalize;
     }
+    
     .cabecalho-imagem{
-        height: 72px;
+        margin: 20px;
+        width: 150px;
+        height: 60px;
+        border-radius: 60%;
     }
     menu>ul>li{
         display: flex;
